@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #EAC926;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+header #logo{
+    width : 50%;
+    align-self: center;
+    align-items: center;
+}
+#barraBusqueda{
+    display: flex;
+    background-color:white;
+    width: 50%;
+    align-self: center; 
+    padding: 1px;
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 2px;
+    color: gray;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+}
+header nav ul{
+    display: flex;
+    align-content: space-around;
+}
+header nav li {
+    font-size: 12px;
+}
+header nav li a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+header .fa-bars{
+    background-color:blue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center; 
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #ebebeb;
+}
+
+main .visita{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    align-content: center;
+    width: 90vw;
+}
+
+main .banner {
+    width: 100%;
+    padding: 0px;
+}
+main .banner img{
+    width: 100%;
+    padding: 0px;
+}
+
+main .ofertas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    align-content: center;
+    width: 90vw;
+}
+
+main section img {
+    width: 95%;
+}
+main section article div{
+    width: 100%;
+    background-color: white;
+    padding-top: 5px;
+    border: 1px solid #ebebeb;
+}
+
+main section article{
+    width: 95%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.renglonPrecioDescuento{
+    display: flex;
+    border: none;
+}
+
+p {
+    font-size: 12px;
+    margin: 1px;
+}
+
+.precio {
+    font-size: 18px;
+    width: 30%;
+    margin: auto;
+}
+.descuentos {
+    font-size: 16px;
+    width: 70%;
+    margin: auto;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+article h4{
+    font-size: 16px;
+    margin: 0px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+
+footer i {
+    font-size: 2em;
+    color: blue;
+}
+
+@media(max-width: 480px){
+    header nav{
+        display: none;
+    }
+    main .descripcion {
+        display: none;
+    }
+    header section .logoBusqueda{
+        display: flex;
+    }
+}
+
+@media(min-width: 480px){
+    header .fa-bars{
+        display: none;
+    }
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        width: 45%;
+        margin-right: 10px;
+    }
+    .precio {
+        font-size: 18px;
+        width: 50%;
+        margin: auto;
+    }
+    .descuentos {
+        font-size: 16px;
+        width: 50%;
+        margin: auto;
+    }
+    header section{
+        display: flex;
+    }
+    
+}
+
+@media(min-width: 769px){
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        width: 21%;
+        margin-right: 10px;
+    }
+}

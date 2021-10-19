@@ -157,6 +157,19 @@ footer i {
     color: blue;
 }
 
+form div{
+    margin: 10px;
+}
+
+form div button{
+    background-color: whitesmoke;
+}
+
+form div button a{
+    text-decoration: none;
+}
+
+
 @media(max-width: 480px){
     header nav{
         display: none;

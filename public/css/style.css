@@ -229,13 +229,13 @@ footer .copyright{
         display: block;
     }
 
-
     header section{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
     }
     header .logoBusqueda{
-        width: 70vw;
+        width: 75vw;
     }
 
  

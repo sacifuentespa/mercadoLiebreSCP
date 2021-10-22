@@ -36,10 +36,11 @@ header #logo{
 
 header nav{
     display: flex;
+    justify-content: space-between;
 }
 header nav ul{
     display: flex;
-    align-content: space-around;
+    justify-content: space-around;
 }
 header nav li {
     font-size: 12px;

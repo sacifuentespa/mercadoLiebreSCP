@@ -234,7 +234,11 @@ footer .copyright{
         display: flex;
         flex-wrap: wrap;
     }
-    
+    header .logoBusqueda{
+        width: 70vw;
+    }
+
+ 
 }
 
 @media(min-width: 769px){

@@ -18,9 +18,8 @@ header #logo{
     align-self: center;
     align-items: center;
 }
-#barraBusqueda{
+.barraBusqueda{
     display: flex;
-    background-color:white;
     width: 50%;
     align-self: center; 
     padding: 1px;
@@ -29,6 +28,10 @@ header #logo{
     border-radius: 2px;
     color: gray;
     justify-content: space-between;
+}
+
+.barraBusqueda input{
+    width: 90%;
 }
 
 header nav{
@@ -235,7 +238,11 @@ footer .copyright{
         justify-content: space-around;
     }
     header .logoBusqueda{
-        width: 75vw;
+        width: 70vw;
+    }
+
+    header .parrafo {
+        align-self: center;
     }
 
  
